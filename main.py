@@ -2,6 +2,7 @@ import pygame
 from constants import SCREEN_WIDTH, SCREEN_HEIGHT
 from logger import log_state
 
+pygame.init()
 
 def main():
     print(f"Starting Asteroids with pygame version: {pygame.version.ver}")
